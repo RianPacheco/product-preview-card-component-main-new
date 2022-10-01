@@ -1,0 +1,138 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        user-select: none;
+    }
+
+    @import url('https://fonts.google.com/specimen/Montserrat');
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        background-color: hsl(30, 38%, 92%); 
+        font-family: Montserrat;
+        color: #909090;
+    }
+
+    main{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 800px;
+        height: 550px;
+        border-radius:20px;
+    }
+
+    .img{
+        width: 500px;
+        height: 550px;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    .img-mobile{
+        display:none;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 550px;
+        padding: 2em;
+        font-weight: 700;
+    }
+
+    .perfume{
+        font-size: 14px;
+        letter-spacing: 8px;
+    }
+
+    .title{
+        color: black;
+        font-size: 47px;
+        line-height: .9em;
+    }
+
+    .p{
+        font-size: 21px;
+        padding: 0.4em;
+        line-height: 1.4em;
+    }
+
+    .cart{
+        width: 20px;
+    }
+
+    .price{
+        text-decoration: line-through;
+        text-align: center;
+        width: 40px;
+    }
+
+    .price2{
+        color:hsl(158, 36%, 37%);
+        font-size: 42px;
+    }
+
+    .button{
+        background-color: hsl(158, 36%, 37%);
+        width: 330px;
+        height: 60px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .button:hover{
+        background-color: hsl(158, 35%, 23%);
+    }
+
+    h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 800px) {
+        main{
+            width: 375px;
+            height: 600px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        section{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .text{
+            display: flex;
+            font-size:1px;
+            width: 375px;
+        }
+        .img-mobile{
+            display: flex;
+            width: 375px;
+            border-radius:20px 20px 0 0;
+        }
+        .img{
+            display: none;
+        }
+        .title{
+            width: 375px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .price{
+            font-size: 22px;
+        }
+    }

@@ -11,8 +11,7 @@ Obrigado por conferir este desafio de codificação de front-end.
 Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 **Para fazer esse desafio, você precisa ter um conhecimento básico de HTML e CSS.
-Site totalmente responsivo.
-**
+Site totalmente responsivo.**
 
 ## O desafio
 
